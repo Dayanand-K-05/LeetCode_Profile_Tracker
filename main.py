@@ -12,5 +12,6 @@ all_datas = soup.find_all("span", class_="Counter")
 
 repo = all_datas[0].text
 stars = all_datas[3].text
+print(f"Username: {user_name}")
 print(f"Total Repositories: {repo}")
 print(f"Stars: {stars}")
